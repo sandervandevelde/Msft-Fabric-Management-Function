@@ -10,7 +10,7 @@ This Azure function uses the REST API as found [here](https://github.com/nocsi-z
 
 Check out that repository for more details.
 
-The [repository](https://github.com/nocsi-zz/fabric-capacity-management/) offers an automated solution for Azure Data Factory and Fabric data pipelines.
+The [repository](https://github.com/nocsi-zz/fabric-capacity-management/), maintained by [Kasper Kirkegaard](https://github.com/nocsi-zz), offers automated solutions using Azure Data Factory and Fabric data pipelines.
 
 ## Entra ID application 
 
