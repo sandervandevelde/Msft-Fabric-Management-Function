@@ -1,24 +1,26 @@
 # Microsoft Fabric Management Function App
 
-This Azure Function paused your Microsoft Fabric capacity on a daily bases (at 18:01 UTC).
+This Azure Function paused your Microsoft Fabric capacity on a daily basis (at 18:01 UTC).
 
 It first checks the current state. If the capacity is running, the capacity is paused.
 
 ## Credits
 
-This Azure functions uses the REST API as found [here](https://github.com/nocsi-zz/fabric-capacity-management/tree/main/postman).
+This Azure function uses the REST API as found [here](https://github.com/nocsi-zz/fabric-capacity-management/tree/main/postman).
 
 Check out that repository for more details.
 
+The [repository](https://github.com/nocsi-zz/fabric-capacity-management/) offers an automated solution for Azure Data Factory and Fabric data pipelines.
+
 ## Entra ID application 
 
-The Entra ID application, needed to get access to the service, can be aquired via commandline:
+The Entra ID application, needed to get access to the service, can be acquired via the command line:
 
 ```
 az ad sp create-for-rbac -n msftfabriccontributor
 ```
 
-This will result a result that looks like this:
+This will result in a JSON message that looks like this:
 
 ```
 {
