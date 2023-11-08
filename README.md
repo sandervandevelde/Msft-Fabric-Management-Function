@@ -20,6 +20,8 @@ The Entra ID application, needed to get access to the service, can be acquired v
 az ad sp create-for-rbac -n msftfabriccontributor
 ```
 
+Just run it on the command line in the Azure portal.
+
 This will result in a JSON message that looks like this:
 
 ```
