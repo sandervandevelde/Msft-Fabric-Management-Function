@@ -65,7 +65,6 @@ namespace MsftFabricManagementFunctionApp
 
 			try
 			{
-				// resume
 				using var request = new HttpRequestMessage(HttpMethod.Post, url);
 				request.Headers.Add("Authorization", $"Bearer {_bearerToken}");
 
@@ -87,13 +86,11 @@ namespace MsftFabricManagementFunctionApp
 
 			try
 			{
-				// resume
 				using var request = new HttpRequestMessage(HttpMethod.Get, url);
 				request.Headers.Add("Authorization", $"Bearer {_bearerToken}");
 
 				using var response = await _client.SendAsync(request);
 				response.EnsureSuccessStatusCode();
-
 
 				var jsonString = await response.Content.ReadAsStringAsync();
 				var json = JsonConvert.DeserializeObject<dynamic>(jsonString);
@@ -109,8 +106,6 @@ namespace MsftFabricManagementFunctionApp
 				throw;
 			}
 		}
-
-
 
 		private string GetBearer(string tennant, string appId, string password)
 		{
