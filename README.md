@@ -22,14 +22,14 @@ This will result a result that looks like this:
 
 ```
 {
-  "application client Id": "92ac349c-3cb8-42a7-af0e-4c3292e52d15",
+  "application client Id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
   "displayName": "msftfabriccontributor",
-  "password": "aRp8Q~eY6Gkk17WnC-14U1nw4eY2i9wLOi7QycSC",
-  "directory tenant Id": "e8bf76a5-4456-4e61-8fdd-a7fa11b9efbf"
+  "password": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "directory tenant Id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 }
 ```
 
-I have taken the liberty to make the client id and tenant id more descriptive.
+I have taken the liberty to make the clientId and tenantId more descriptive.
 
 ## Application settings
 
