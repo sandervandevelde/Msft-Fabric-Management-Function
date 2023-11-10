@@ -72,7 +72,6 @@ namespace MsftFabricManagementFunctionApp
 				response.EnsureSuccessStatusCode();
 
 				log.LogInformation($"Status change: {statusChange}");
-				log.LogInformation(await response.Content.ReadAsStringAsync());
 			}
 			catch (Exception)
 			{
