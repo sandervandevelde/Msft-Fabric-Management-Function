@@ -4,6 +4,10 @@ This Azure Function paused your Microsoft Fabric capacity on a daily basis (at 1
 
 It first checks the current state. If the capacity is running, the capacity is paused.
 
+## Blog post
+
+How to use this Azure Function in combination with Microsoft Fabric is explained in this [blog post](https://sandervandevelde.wordpress.com/2023/11/10/microsoft-fabric-real-time-analytics-exploration-for-iot-developers/).
+
 ## Credits
 
 This Azure function uses the REST API as found [here](https://github.com/nocsi-zz/fabric-capacity-management/tree/main/postman).
