@@ -4,6 +4,9 @@
 # Azure Functions localsettings file
 # local.settings.json # nothing special
 
+.gitattributes
+
+
 # User-specific files
 *.suo
 *.user
@@ -271,3 +274,4 @@ launchSettings.json
 serviceDependencies.json
 
 *.pubxml
+
