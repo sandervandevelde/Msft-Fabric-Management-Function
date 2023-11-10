@@ -35,15 +35,19 @@ This will result in a JSON message that looks like this:
 
 I have taken the liberty to make the clientId and tenantId more descriptive.
 
+## Contributor role for the Entra ID application
+
+Give the Entra ID application contributor access to the Capacity so it can read and alter the state.
+
 ## Application settings
 
 The Azure Function expects a number of Azure function application settings:
 
-- apiVersion
-- appId
-- dedicatedCapacityName
-- password
-- resourceGroupName
-- subsciptionId
-- tennant
+- apiVersion -> at this moment **2022-07-01-preview** 
+- appId -> from RBAC message
+- dedicatedCapacityName -> Resource name your Capacity 
+- password -> from RBAC message
+- resourceGroupName -> name of the resource group your Capacity is living in
+- subsciptionId -> from RBAC message
+- tennant -> from RBAC message
 
